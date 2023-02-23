@@ -66,14 +66,14 @@ button{
 	}
 
 	form label{
-		display: inline-block;
+		/* display: inline-block; */
 		text-align: right;
-		float: left;
-        
+    /* float: left; */
+        float: left;
 	}
 
 	form input{
-		display: inline-block;
+		/* display: inline-block; */
 		text-align: left;
 		float: right;
 	}
