@@ -79,6 +79,11 @@ button{
 	}
     #paragraph{
         text-align: left;
+        background-color: orangered;
+        margin: 0;
     }
-    p{ text-align: center;
+    p{  margin: 0;
+        text-align: center;
+        background-color: orangered;
+        margin-top: -1%;
     }
