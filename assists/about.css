@@ -2,7 +2,9 @@ h1{text-align: center;
      color: orange;
      font-size: 100px;
     margin-bottom: 1%;
-padding: 20px;}
+    padding: 20px;
+    margin-top: 0%;}
+
 ul li{color:white;
     font-size: 20px; 
     display: inline; 
@@ -48,7 +50,7 @@ margin-top: -10%;
         text-align: left;
         background-color: white;
         color: black;
-        margin-top: 3%;
+        margin-top: 5%;
         margin-bottom: 2%;
         padding: 3px;
 
@@ -56,6 +58,7 @@ margin-top: -10%;
 
 button{
     margin-top: 2%;
+    margin-bottom: 2%;
 
     }
     form {
@@ -78,11 +81,15 @@ button{
 		float: right;
 	}
     #paragraph{
+
         text-align: left;
         background-color: orangered;
+        margin-top: 2%;
+        margin-bottom: 0%;
+       }
+
+    p{  
         margin: 0;
-    }
-    p{  margin: 0;
         text-align: center;
         background-color: orangered;
         margin-top: -1%;
