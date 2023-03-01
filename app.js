@@ -32,3 +32,4 @@ if(age<=0)
 }
 var welcoming=confirm("welcome to our page");
 var cancling=confirm("Are you sure?");
+
