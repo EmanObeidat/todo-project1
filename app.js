@@ -17,7 +17,7 @@ if(age<=0)
     alert("sorry!")
 }
 var welcoming=confirm("welcome to our page");
-var cancling=confirm("Are you sure?")
+var cancling=confirm("Are you sure?");
 if(gender=="female")
 {
     alert(`welcome Ms ${userName}` );
