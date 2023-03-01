@@ -11,13 +11,6 @@ else
     alert("sorry! please enter your gender");
     gender=prompt("what is your gender?");
 }
-var age=prompt("what is your age?");
-if(age<=0)
-{
-    alert("sorry!")
-}
-var welcoming=confirm("welcome to our page");
-var cancling=confirm("Are you sure?");
 if(gender=="female")
 {
     alert(`welcome Ms ${userName}` );
@@ -31,3 +24,11 @@ else
 {
     alert("welcome :)");
 }
+
+var age=prompt("what is your age?");
+if(age<=0)
+{
+    alert("sorry!")
+}
+var welcoming=confirm("welcome to our page");
+var cancling=confirm("Are you sure?");
