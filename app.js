@@ -31,5 +31,10 @@ if(age<=0)
     alert("sorry!")
 }
 var welcoming=confirm("welcome to our page");
-var cancling=confirm("Are you sure?");
+var skip=confirm("do you want to skip the welcoming message")
+if(skip==true)
+{
+    alert("Are you sure?");
+}
+
 
