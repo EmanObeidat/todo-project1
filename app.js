@@ -4,9 +4,8 @@ var age = prompt("what is your age?");
 if (age <= 0) {
     alert("sorry!")
 }
-else
-{
-    console.log(gender);
+else {
+    console.log(age);
 }
 var gender = prompt("what is your gender?");
 if (gender == "female" || gender == "male") {
@@ -34,40 +33,43 @@ var skip = confirm("do you want to skip the welcoming message");
 if (skip == true) {
     alert("Are you sure?");
 }
-var arrayOfAnswers=[];
-function causeOfAttend() {
-    var taskQuastion = confirm("Are you here to know your task?");
-    console.log(arrayOfAnswers.push(taskQuastion));
-    // console.log(taskQuastion);
 
-    // if (taskQuastion == false) {
-    //     var why = prompt("why you are here?");
-    //     console.log(why);
-    // }
-    // else if (taskQuastion == true) {
-    //     var well = alert("well done :)");
-    // }
+var arrayOfAnswers = [];
+function causeOfAttend() {
+    var taskQuastion = prompt("Are you here to know your task?");
+    if (taskQuastion == "yes" || taskQuastion == "no")
+     { console.log(arrayOfAnswers.push(taskQuastion)); }
+    else {
+        console.log(arrayOfAnswers.push("invalid"));
+    }
+
+
 }
 causeOfAttend();
 
 function employeeId() {
-    var idNum = confirm("Do you have ID number?");
-    console.log(arrayOfAnswers.push(idNum));
-    console.log(idNum);
-
+    var idNum = prompt("Do you have ID number?");
+    if (idNum == "yes" || idNum == "no")
+   {console.log(arrayOfAnswers.push(idNum));} 
+    else
+    {
+        console.log(arrayOfAnswers.push("invalid"));
+    }
 }
 employeeId();
-function nationality()
-{
-    var nationalityConfirm=confirm("Are you Jordainian?");
-   console.log(arrayOfAnswers.push(nationalityConfirm));
+
+function nationality() {
+    var nationalityConfirm = prompt("Are you Jordainian?");
+    if (nationalityConfirm == "yes" || nationalityConfirm == "no")
+   {    console.log(arrayOfAnswers.push(nationalityConfirm));}
+    
+    else
+    {
+        console.log(arrayOfAnswers.push("invalid"));
+    }
 }
 nationality();
 console.log(arrayOfAnswers);
-// function maritalStatus()
-// {
-//     var depNum=confirm("Are you single?");
-// }
 
 
 
