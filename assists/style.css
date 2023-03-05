@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  color: black;
+  background-color: rosybrown;
+  text-align: center;
+  border: none;
+  padding: 1px;
+  font-family: 'Courier New', Courier, monospace;
+  display: inline;
+}
+
+#image {
+  margin: 0;
+  height: 80px;
+  width: 80px;
+}
+
+ul li {
+  color: black;
+  font-size: 20px;
+  display: inline;
+  padding: 8px;
+  background-color:rosybrown;
+  padding: 14px 16px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  cursor: pointer;
+  /* align-content: space-around; */
+}
+
+main section table{
+      justify-content: center;
+      width: 400px;
+
+    }
+a {
+  text-decoration: none;
+}
+
+label {
+  text-align: right;
+  /* float: left; */
+  margin: 2%;
+  margin-left: 0%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rosybrown;
+}
+
+header section {
+  display: flex;
+  gap: 2%;
+}
+
+input {
+  text-align: left;
+  float: left;
+  margin: 2%;
+  margin-left: 0%;
+}
+
+th,td {
+  padding: 15px;
+  text-align: left;
+  margin-left: 0%;
+  /* background-color: yellowgreen; */
+  border-color: rosybrown;
+  height: 90px;
+  width: 100px;
+  cursor: pointer;
+
+
+}
+
+tr:hover {
+  background-color:rebeccapurple;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rebeccapurple;
+  background-color: rosybrown;
+  margin-bottom: 0;
+
+
+}
+
+main {
+  padding: 10% 5% 10% 5%;
+  background-color: antiquewhite;
+}
+
+#con {
+  float: left;
+  color: rebeccapurple;
+  cursor: pointer;
+}
+
+#copy {
+  text-align: center;
+  color: rebeccapurple;
+
+}
+
+nav img {
+  width: 20px;
+  height: 20px;
+  float: right;
+  /* margin-top: -1%; */
+  /* margin-bottom: 2%; */
+  margin-top: -3%;
+  padding: 1%;
+
+
+}
+
+body {
+  background-color: white;
+}
